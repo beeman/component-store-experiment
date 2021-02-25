@@ -13,6 +13,4 @@ import { Component } from '@angular/core'
     </div>
   `,
 })
-export class AppComponent {
-  title = 'component-store-experiment'
-}
+export class AppComponent {}

@@ -3,12 +3,7 @@ import { StoreV11Store } from './store-v11.store'
 
 @Component({
   selector: 'store-v11',
-  template: `
-    <ng-container *ngIf="vm$ | async as vm">
-      <pre>{{ vm.loading }}</pre>
-      <pre>{{ vm.items }}</pre>
-    </ng-container>
-  `,
+  templateUrl: './store-v11.component.html',
   providers: [StoreV11Store],
 })
 export class StoreV11Component {
